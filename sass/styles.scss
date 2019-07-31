@@ -1,0 +1,52 @@
+// Include All Bootstrap 4.3.1 SASS
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$custom-color:scale-color(#ccff66, $lightness: 50%);
+$custom-blue:#87ceeb;
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body, html {
+    height: 100%;
+}
+
+body{
+    background-color: $custom-blue;
+    background-image: url("../img/background-img.jpg");
+  
+    /* Full height */
+    height: 50%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    // background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg-custom {
+    background-color: $custom-color;
+}
+
+.highlight{
+    color: $custom-color;
+    font-style: italic;
+}
+
+.border-custom-blue{
+    border-color: $custom-blue;
+}
+
+@include media-breakpoint-up(lg){
+    #buffer{
+        min-height: 50vh;
+    }
+}
+
+footer{
+    background-color: $custom-color;
+}
