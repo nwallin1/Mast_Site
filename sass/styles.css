@@ -10617,6 +10617,6 @@ footer {
 }
 
 #citation a {
-  color: white;
+  color: white !important;
 }
 /*# sourceMappingURL=styles.css.map */
