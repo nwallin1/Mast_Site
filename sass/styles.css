@@ -10596,6 +10596,20 @@ body {
   #buffer {
     min-height: 50vh;
   }
+  nav > span {
+    border-right: blue 1px solid !important;
+  }
+  nav > address {
+    display: block !important;
+  }
+  footer .container-fluid {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .gmap {
+    display: block !important;
+  }
 }
 
 footer {

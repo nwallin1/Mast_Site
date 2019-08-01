@@ -16,7 +16,7 @@
         
         
         <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-            <span class="navbar-brand mb-0 h1 border-right border-primary mr-2 pr-2">
+            <span class="navbar-brand mb-0 h1 mr-2 pr-2" style="border-right: none">
                 <img src="img/Mast_Logo_v3.0_New.png" class="nav-item align-center border border-primary -n3" style="width: 50px; height: 50px;">
                     <i>Center For Healing Arts</i>
                 </span>
@@ -25,7 +25,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-collapse collapse show" id="navbarSupportedContent">
                 <ul class="navbar-nav nav navtabs" role="tablist">
                 <li class="nav-item" >
                     <a class="nav-link active" href="#Home" data-toggle="tab">Home <span class="sr-only">(current)</span></a>
@@ -38,22 +38,38 @@
                     </li>
                 </ul>
             </div>
+            <address class="mb-1 px-2 mx-1 text-center border-right border-primary" style="font-size: .75em; display:none;">
+                    Clarence Mast, Jr., M.D.
+                    Center For Healing Arts<br>
+                    8805 State Route 6 Lower Level<br>
+                    Meshoppen, PA 18630
+                
+            </address>
+            <address class="px-2" style="display:none;">
+                Tel: <a href="tel:1-570-833-0190">(570)833-0190</a><br>
+                Fax: <a href="tel:1-570-833-0190">(570)833-2745</a>
+            </address>
         </nav>
 
     </header>
 
 <div class="tab-content">
     <div id="Home" class="container tab-pane active">
-            <div id="buffer" class="row"></div>
+            <div id="buffer" class="row">
+                
+            </div>
             <div class="jumbotron bg-transparent p-0 m-0">
                     <div class="container text-center">
                         <h1 class="display-4 ">Welcome to the <span class="highlight">Center For Healing Arts.</span></h1>
                         <p class="lead">We specialize in the diagnosis and treatment of <b>Lyme and Tick Borne Diseases</b><br>
                             <hr>
-                                Including:<ul class="list-unstyled">
+                                Including but not limited to:<ul class="list-unstyled">
                                 <li>- Lyme Disease -</li>
-                                <li>- Babesia -</li>
+                                <li>- Babesia/Babesiosis -</li>
                                 <li>- Bartonella -</li>
+                                <li>- Anaplasmosis -</li>
+                                <li>- Parasitosis -</li>
+                                <li>- Mycoplasma -</li>
                             </ul>
                             <!-- <p>To Learn About Symptoms Of Tick-Borne Illnesses Click The Link: <a id="#home-link" href="#">About Lyme</a></p> -->
                             <hr>
@@ -73,7 +89,7 @@
                     Our Office is <strong>Open from</strong> 9-5pm Monday through Thursday.<br>
                         <u><strong>Contact Info</strong></u><br>
                     Any questions on Lyme Disease, or other Tick Borne Illnesses?<br> 
-                    Interested in scheduling an appointment?<br> Please call us at (570)833-0190<hr>
+                    Interested in scheduling an appointment?<br> <u>Please call us at:</u> <strong>(570)833-0190</strong><hr>
                     
                     <u><strong>Directions:</strong></u><br>
                     Our Address is:<br>Clarence Mast, JR., M.D.
@@ -85,13 +101,13 @@
                 </p>
             </div>
             <hr>
-    <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.9756200914153!2d-76.05167208470289!3d41.61303887924407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5367a6a506d5d%3A0x5ed1175154b03b7c!2sCenter+For+Healing+Arts!5e0!3m2!1sen!2sus!4v1563676806274!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    <div class="gmap" style="display: none;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.9756200914153!2d-76.05167208470289!3d41.61303887924407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c5367a6a506d5d%3A0x5ed1175154b03b7c!2sCenter+For+Healing+Arts!5e0!3m2!1sen!2sus!4v1563676806274!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 </div>
 </div>
     <footer class="footer mt-auto">
-        <div class="container-fluid">
-            <div class="d-inline-block ml-4">
+        <div class="container-fluid" style="display:block;">
+            <div class="ml-4">
                 
                 <address>
                     <a href="https://goo.gl/maps/P4Mqnpr1Co8E9X4L9">
@@ -100,18 +116,20 @@
                     8805 State Route 6 Lower Level<br>
                     Meshoppen, PA 18630<br></a>
                     Tel: <a href="tel:1-570-833-0190">(570)833-0190</a>
+                    Fax: <a href="tel:1-570-833-0190">(570)833-2745</a>
                 </address>
             </div>
-            <div class="d-inline-block ml-4 pl-4 border-left border-secondary">
+            <div id="hours" class="ml-4 pl-4 border-left border-secondary">
                 <p>
                     Office Hours:<br>
-                    Monday: 9am - 5pm &ensp;Thursday: 9am - 5pm<br>
-                    Tuesday: 9am - 5pm &ensp;Friday : Closed<br>
-                    Wednesday: 9am - 5pm &ensp;Saturday/Sunday: Closed
+                    Monday through Thursday: 9am - 5pm<br>
+                    Friday/Saturday/Sunday: Closed
                 </p>
+            </div> 
+            <div class="ml-auto text-right align-self-end">
+            <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
+                <p>&copy;2019</p>
             </div>
-            <a class="float-right d-inline" href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>
-            <div class="d-inline float-right mr-4">&copy;2019 </div>
         </div>
         
     </footer>

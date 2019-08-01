@@ -41,11 +41,32 @@ body{
     border-color: $custom-blue;
 }
 
+
+
 @include media-breakpoint-up(lg){
     #buffer{
         min-height: 50vh;
+        
+    }
+
+    nav > span {
+        border-right: blue 1px solid !important;
+    }
+
+    nav > address{
+        display: block !important;
+
+    }
+
+    footer .container-fluid{
+        display: flex !important;
+    }
+
+    .gmap{
+        display: block !important;
     }
 }
+
 
 footer{
     background-color: $custom-color;
