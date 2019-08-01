@@ -10615,4 +10615,8 @@ body {
 footer {
   background-color: #e6ffb3;
 }
+
+#citation a {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
